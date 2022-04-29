@@ -1,3 +1,3 @@
-from .ezenv import (quicktext)
+from .ezenv import (quicktext, set_env)
 
-__all__ = ['quicktext']
+__all__ = ['quicktext', 'set_env']
