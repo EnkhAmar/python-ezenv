@@ -2,7 +2,6 @@ import re
 import os
 from uuid import uuid4
 
-VARIABLE_NAME = "GCP_BUCKET_NAME"
 DEFAULT_ENV = ".env"
 
 PWD = os.environ.get("PWD")
