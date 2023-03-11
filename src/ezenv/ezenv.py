@@ -4,7 +4,7 @@ from uuid import uuid4
 
 DEFAULT_ENV = ".env"
 
-PWD = os.environ.get("PWD")
+PWD = os.environ.get("PWD") # Print Working Directory
 
 def set_env(key: str, value: str, env_file: str=DEFAULT_ENV) -> bool:
     """
