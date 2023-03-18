@@ -11,6 +11,11 @@ def set_env(key, value=None, env_file=".env"):
 
     os.environ[key] = value
 
+    # Check if the .env file exists and create it if it doesn't
+    if not os.path.exists(env_file):
+        with open(env_file, "w") as f:
+            f.write("")
+
     # Check if the variable already exists in the .env file
     with open(env_file, "r") as f:
         env_lines = f.readlines()

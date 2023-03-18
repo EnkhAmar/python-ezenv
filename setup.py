@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="python-ezenv",                     # This is the name of the package
-    version="0.0.6",                        # The initial release version
+    version="0.0.7",                        # The initial release version
     author="Enkh-Amar Ganbat",                     # Full name of the author
     description="Package for setting environment variable easily",
     long_description=long_description,      # Long description read from the the readme file
